@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    flex-grow: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.grid-container div {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.grid-container h1 {
+    font-size: 28px;
+}
+
+.grid-container h2 {
+    text-align: right;
+}
+
+.grid-container p {
+    font-size: 18px;
+}

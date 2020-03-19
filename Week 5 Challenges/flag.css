@@ -1,0 +1,40 @@
+.flag {
+    height: 1300px;
+    width: 1800px;
+    border: solid #000;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stars {
+   height: 500px;
+   width: 800px;
+   background-image: url(images/easy.png);
+}
+
+.stripes {
+    height: 500px;
+    width: 500px;
+}
+
+.stripes2{
+    height: 400px;
+    width: 600px;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.white,
+.red {
+    height: 100px;
+    width: 100%;
+}

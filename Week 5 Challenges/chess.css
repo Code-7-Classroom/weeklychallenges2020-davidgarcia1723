@@ -1,0 +1,32 @@
+.chess-board {
+    height: 800px;
+    width: 800px;
+    border: solid #000;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.white,
+.black {
+    height: 100px;
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.chess-row {
+    flex-direction: row;
+    height: 100px;
+}
+.chess-row-r {
+    flex-direction: row-reverse;
+    height: 100px;
+}
