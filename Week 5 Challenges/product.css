@@ -1,11 +1,12 @@
 .flex {
     display: flex;
-    flex-grow: 1;
+    flex: wrap;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 500px 500px;
     grid-gap: 10px;
     background-color: lightgray;
     padding: 10px;
