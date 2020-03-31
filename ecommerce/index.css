@@ -1,0 +1,335 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+* a {
+    text-decoration: none;
+    color: #555;
+}
+
+.clr {
+    clear: both;
+}
+
+* a:hover {
+    color: #555;
+ } 
+
+
+/* Nav Bar */
+
+.container-nav {
+    margin: auto;
+    max-width: 90%;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar {
+    background: #F5F5F5;
+    color: #555;
+    overflow: auto;
+}
+#navbar h1 {
+    float: left;
+    padding: 13px 0px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: red;
+    color: #F5F5F5;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+/* Hero-Home
+
+.hero-image--home{
+    position: static;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background: url(images/switch-home.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .container-hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+    text-align:center;
+    color: #f5f5f5;
+    font-weight:700;
+  }
+  .container-hero h1{
+    font-size:72px;
+    letter-spacing:0.2em;
+  } */
+
+/* Hero-Product */
+
+.hero-image--product{
+    position: static;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background: url(images/switch-home.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .container-hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+    text-align:center;
+    color: #f5f5f5;
+    font-weight:700;
+  }
+  .container-hero h1{
+    font-size:72px;
+    letter-spacing:0.2em;
+  }
+
+/* Hero-Contact */
+
+.hero-image--contact{
+    position: static;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background: url(images/mug.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .container-hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+    text-align:center;
+    color: #f5f5f5;
+    font-weight:700;
+  }
+  .container-hero h1{
+    font-size:72px;
+    letter-spacing:0.2em;
+  }
+
+
+/* Main Styling */
+
+html, body {
+    background-color: #F5F5F5;
+    font-size: 18px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* About Us */
+
+.aboutUs {
+    border-top: solid blue;
+    border-bottom: solid blue;
+    border-left: solid red;
+    border-right: solid red;
+    width: 100%;
+    height: 356px;
+    display: block;
+    text-align: center;
+}
+
+.aboutUs img {
+    float: left;
+    height: 350px;
+    width: 500px;
+}
+
+.aboutUs h1 {
+    padding: 40px;
+    font: 2rem;
+}
+
+.aboutUs p {
+    line-height: 1.5rem;
+}
+
+.btn-shop {
+    border: black solid;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.btn-shop:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+/* Slideshow */
+
+.slideshow {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: black solid;
+}
+
+/* Product Grid */
+
+#myBtnContainer {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn {
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    justify-content: center;
+}
+
+.sale-item {
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.sale-item h1 {
+    font-size: 28px;
+}
+
+.sale-item h2 {
+    text-align: center;
+}
+
+.sale-item p {
+    font-size: 18px;
+}
+
+
+/*Contact*/
+
+.container-form {
+    padding: 10px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.container-form h1 {
+    font-size: 3rem;
+    padding-top: 25px;
+}
+
+p{
+    margin-bottom: 10px; 
+    margin-top:10px; 
+}
+
+.btn-submit {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.btn-submit:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Footer */
+
+.footerpages {
+    display: block ;
+    position: absolute;
+    padding-left: 3%;
+    list-style: none;
+    text-align: left;
+    color: #555;
+    line-height: 150%;
+}
+#main-footer {
+    text-align: center;
+    background: #F5F5F5;
+    color: #555;
+    margin: auto;
+    max-width: 90%;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+#main-footer p {
+    padding-top: 2%;
+}
+.social {
+    display: block;
+    justify-content: center;
+    padding-top: 25px;
+}
+.social-icon {
+    color: #555555;
+    font-size: 1.5em;
+    text-align: center;
+}
+.divider {
+    margin: 0 25px;
+}
+
+@media screen and (max-width: 800px) and (max-height: 800px) {
+    .btn-shop {
+        font-size: .5rem;
+    }
+}

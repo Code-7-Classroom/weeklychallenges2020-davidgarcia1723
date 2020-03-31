@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Switch It Up</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontwesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container-nav">
+                <h1 class="logo">Switch <span class="blue">It</span> <span class="red">Up</span></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="hero-image--contact">
+            <div class="container-hero">
+                <h1><span>Contact Us</span></h1>
+            </div>
+        </div>
+    </section>
+    <div class="container-form">
+        <h1><span class="blue">Contact</span><span class="red"> Us!</span></h1>
+        <p>Please fill out the form below to contact us</p>
+        <form name="myForm" action="/submit.php" onsubmit="return validateForm()" method="post">
+            <div class="form">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="form">
+                <label for="message">Send us your questions/concerns:</label>
+                <br>
+                <textarea cols="100" rows="20" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+    <footer id="main-footer">
+        <ul class="footerpages">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>Switch It Up &copy; 2020, All Rights Reserved</p>
+        <div class="social">
+            <a class="social-icon" href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="social-icon divider" href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

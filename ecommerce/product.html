@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Switch It Up</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontwesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container-nav">
+                <h1 class="logo">Switch <span class="blue">It</span> <span class="red">Up</span></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="hero-image--product">
+            <div class="container-hero">
+                <h1><span>Products</span></h1>
+            </div>
+        </div>
+    </section>
+    <!-- Control buttons -->
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('games')"> Games</button>
+        <button class="btn" onclick="filterSelection('systems')"> Systems</button>
+        <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
+        <button class="btn" onclick="filterSelection('priceUnder20')"> Under $20</button>
+        <button class="btn" onclick="filterSelection('price20-60')"> $20-$60</button>
+        <button class="btn" onclick="filterSelection('priceOver60')"> Over $60</button>
+    </div>
+    <main class="container">
+        <article class="sale-item games price20-60">
+            <h1>Super Smash Bros Ultimate</h1>
+            <a href="https://www.gamestop.com/video-games/switch/games/products/mario-kart-8-deluxe/10141928.html"><img
+                    src="/images/products/SSBU.png" alt="SmashUltimate"></a>
+            <p>Gaming's greatest fighters battle it out on the biggest stage yet!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Super Mario Odyssey</h1>
+            <a href="https://www.gamestop.com/video-games/switch/games/products/super-mario-odyssey/10141908.html"><img
+                    src="images/products/SMO.png" alt="Odyssey"></a>
+            <p>Join Mario and his friends on his new adventure to save Peach from Bowser!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Mario Kart 8 Deluxe</h1>
+            <a href="https://www.gamestop.com/video-games/switch/games/products/mario-kart-8-deluxe/10141928.html"><img
+                    src="images/products/MK8D.png" alt="MarioKart"></a>
+            <p>Start your engines and join the fun with Nintendo's famous race game!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Super Mario Party</h1>
+            <a href="https://www.gamestop.com/video-games/switch/games/products/super-mario-party/10162374.html"><img
+                    src="images/products/PARTY.png" alt="MarioParty"></a>
+            <p>Ready to test the strength of your friendships? This party game will do just that!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Pokemon Sword</h1>
+            <a href="https://www.gamestop.com/video-games/switch/games/products/pokemon-sword/10173915.html"><img
+                    src="images/products/SWORD.png" alt="PkmnSword"></a>
+            <p>Journey across the new Galar region! Train Pokemon, New and Old! Become the Pokemon World Champion! </p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Pokemon Mystery Dungeon</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/games/products/pokemon-mystery-dungeon-rescue-team-dx/11099662.html"><img
+                    src="/images/products/PMD.png" alt="PkmnMS"></a>
+            <p>What if one day you woke up and you were a Pokemon? Find out in the remake of a classic!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>Animal Crossing: New Horizons</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/games/products/animal-crossing-new-horizons/10168434.html"><img
+                    src="/images/products/ACNH.png" alt="AnimalCrossing"></a>
+            <p>Join Tom Nook and settle a Deserted Island! Live your best life as you grow your new home!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item games price20-60">
+            <h1>The Legend of Zelda: Breath of the Wild</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/games/products/the-legend-of-zelda-breath-of-the-wild/10141904.html"><img
+                    src="/images/products/BOTW.png" alt="LegendOfZelda"></a>
+            <p>In a post-apocalyptic Hyrule, Link is the only hope left to defeat Ganon! Uncover the past and save the future!</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item systems priceOver60">
+            <h1>Nintendo Switch with Neon Joy-Cons</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/consoles/products/nintendo-switch-with-neon-blue-and-neon-red-joy-con/11095819.html"><img
+                    src="/images/products/Switch.png" alt="SwitchNeon"></a>
+            <p>The most innovative system made by Nintendo, the Switch is ready to play at home and on the go!</p>
+            <h2>Price - $299.99</h2>
+        </article>
+        <article class="sale-item systems priceOver60">
+            <h1>Nintendo Switch Lite</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/consoles/products/nintendo-switch-lite-yellow/11095776.html"><img
+                    src="/images/products/SwitchLite.png" alt="SwitchLite"></a>
+            <p>The latest iteration of the Nintendo Switch! The Switch Lite is perfect for those who prefer playing on the go!</p>
+            <h2>Price - $199.99</h2>
+        </article>
+        <article class="sale-item accessories price20-60">
+            <h1>Nintendo Switch Pro Controller</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/accessories/controllers/products/nintendo-switch-wireless-pro-controller-black/10141852.html"><img
+                    src="/images/products/ProController.png" alt="ProController"></a>
+            <p>Play like the pros! The Pro controller is designed for a more traditional look and feel.</p>
+            <h2>Price - $59.99</h2>
+        </article>
+        <article class="sale-item accessories priceUnder20">
+            <h1>Switch Controller Grips</h1>
+            <a
+                href="https://www.gamestop.com/video-games/switch/accessories/thumb-grips/products/nintendo-switch-turbo-performance-thumbstick/10153221.html"><img
+                    src="/images/products/SwitchGrips.png" alt="SwitchGrips"></a>
+
+            <p>Get the most of your controllers with the Nintendo Switch grips! Protect your controller and play with comfort.</p>
+            <h2>Price - $14.99</h2>
+        </article>
+    </main>
+    <footer id="main-footer">
+        <ul class="footerpages">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>Switch It Up &copy; 2020, All Rights Reserved</p>
+        <div class="social">
+            <a class="social-icon" href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="social-icon divider" href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/" target="_blank" rel="noopener"><i
+                    class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
