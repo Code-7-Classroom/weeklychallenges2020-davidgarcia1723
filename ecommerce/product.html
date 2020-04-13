@@ -15,7 +15,7 @@
     <header>
         <nav id="navbar">
             <div class="container-nav">
-                <h1 class="logo">Switch <span class="blue">It</span> <span class="red">Up</span></h1>
+                <h1 class="logo"><div class="controller"><i class="fas fa-gamepad"></i></div> Switch <span class="blue">It</span> <span class="red">Up</span></h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="product.html">Products</a></li>
@@ -33,15 +33,29 @@
         </div>
     </section>
     <!-- Control buttons -->
-    <div id="myBtnContainer">
+    <!-- <div id="myBtnContainer">
         <button class="btn active" onclick="filterSelection('all')"> Show all</button>
         <button class="btn" onclick="filterSelection('games')"> Games</button>
         <button class="btn" onclick="filterSelection('systems')"> Systems</button>
         <button class="btn" onclick="filterSelection('accessories')"> Accessories</button>
         <button class="btn" onclick="filterSelection('priceUnder20')"> Under $20</button>
         <button class="btn" onclick="filterSelection('price20-60')"> $20-$60</button>
-        <button class="btn" onclick="filterSelection('priceOver60')"> Over $60</button>
-    </div>
+        <button class="btn" onclick="filterSelection('priceOver60')"> Over $60</button> -->
+
+        <div id="myBtnContainer">
+            <select id="productType">
+                <option value="default">Show All</option>
+                <option value="games">Games</option>
+                <option value="systems">Systems</option>
+                <option value="accessories">Accessories</option>
+            </select>
+            <select id="productPrice">
+                <option value="default">Show All</option>
+                <option value="price20-60">$20-$60</option>
+                <option value="priceOver60">Over $60</option>
+                <option value="priceUnder20">Under $20</option>
+            </select>
+        </div>
     <main class="container">
         <article class="sale-item games price20-60">
             <h1>Super Smash Bros Ultimate</h1>
@@ -142,15 +156,15 @@
             <li><a href="product.html">Products</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <p>Switch It Up &copy; 2020, All Rights Reserved</p>
         <div class="social">
-            <a class="social-icon" href="https://www.facebook.com/" target="_blank" rel="noopener"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a class="social-icon divider" href="https://www.instagram.com/" target="_blank" rel="noopener"><i
-                    class="fab fa-instagram"></i></a>
-            <a class="social-icon" href="https://www.linkedin.com/" target="_blank" rel="noopener"><i
-                    class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="https://www.facebook.com/" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon divider" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i></a>
         </div>
+        <p>Switch It Up &copy; 2020, All Rights Reserved</p>
     </footer>
     <script src="index.js"></script>
 </body>
