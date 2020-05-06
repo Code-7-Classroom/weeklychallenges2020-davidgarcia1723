@@ -1,0 +1,65 @@
+{
+    "employees": [
+        {
+            "name":"David",
+            "id":1,
+            "salary":1000000000,
+            "department":"CEO"
+        }, 
+        {
+            "name":"Leo",
+            "id":2,
+            "salary":500000,
+            "department":"Assistant Manager"
+        },
+        {
+            "name":"Josh",
+            "id":3,
+            "salary":500000,
+            "department":"Assistant Manager"
+        },
+        {
+            "name":"Kyle",
+            "id":4,
+            "salary":300000,
+            "department":"Supervisor"
+        },
+        {
+            "name":"DJ",
+            "id":5,
+            "salary":300000,
+            "department":"Supervisor" 
+        },
+        {
+            "name":"Daniel",
+            "id":6,
+            "salary":200000,
+            "department":"Marketing"
+        },
+        {
+            "name":"Emma",
+            "id":7,
+            "salary":200000,
+            "department":"Marketing"
+        },
+        {
+            "name":"Karla",
+            "id":8,
+            "salary":200000,
+            "department":"Sales"
+        },
+        {
+            "name":"Katherine",
+            "id":9,
+            "salary":200000,
+            "department":"Sales"
+        },
+        {
+            "name":"Eduardo",
+            "id":10,
+            "salary":200000,
+            "department":"Sales"
+        }
+       
+    ]
+}
